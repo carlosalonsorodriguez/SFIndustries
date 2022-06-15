@@ -1,0 +1,27 @@
+Name: REPORTS AND DASHBOARDS
+ignoreDependencies: false
+VlocityDataPackKeys:
+    - dashboards/CompanyDashboards/FltzYeqBWaYRgOWlwkohQkHqlzXfje.dashboard
+    - objects/vlocity_cmt__ProductRelationship__c/fields/Message__c.field
+    - profiles/Admin.profile
+    - reportTypes/Entity_Filters_with_Conditions.reportType
+    - reportTypes/Product_Attributes_Assignment.reportType
+    - reportTypes/Product_Configuration_Procedures_for_Attribute_Rul.reportType
+    - reportTypes/Rule_Actions_for_Advanced_Rules.reportType
+    - reportTypes/Rule_Filter_for_Advanced_Rules.reportType
+    - reportTypes/Rule_Variable_for_Advanced_Rules.reportType
+    - reports/unfiled$public/All_Active_Advanced_Rules_Joined.report
+    - reports/unfiled$public/All_Product_Attribute_Rules_Join.report
+    - reports/unfiled$public/Product_Attribute_Rules.report
+    - reports/unfiled$public/Product_Attributes_Assignment.report
+    - reports/unfiled$public/Rule_actions_with_Conditions.report
+    - reports/unfiled$public/Rule_actions_without_Conditions.report
+    - dashboards/CompanyDashboards.dashboardFolder
+VlocityTypesToFetch:
+
+SalesforceTypesToFetch:
+    - CustomField
+    - Dashboard
+    - Profile
+    - Report
+    - ReportType
